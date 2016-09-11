@@ -1,0 +1,25 @@
+{
+  "name": "delete-trump",
+  "version": "1.0.0",
+  "description": "Automatically tell Trump to delete his account.",
+  "scripts": {
+    "start": "node app",
+    "start-forever": "forever start app.js"
+  },
+  "author": "Manny404",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^0.15.2",
+    "twitter": "^1.2.5"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannynotfound/delete-trump.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mannynotfound/delete-trump/issues"
+  },
+  "homepage": "https://github.com/mannynotfound/delete-trump#readme"
+}
